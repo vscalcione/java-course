@@ -14,7 +14,7 @@ public class ArrayContainsMain {
 			int tmp = value.nextInt(100);
 			boolean booleanVariable = contains(tmp, arrayInt);
 			if(booleanVariable) {
-				System.out.println("Il valore � presente: "+tmp);
+				System.out.println("Il valore e' presente: "+tmp);
 			}
 			try {
 				Thread.sleep(500);

@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.polimorfism.exercises.polygonGenerator;
-
-public class TriangleGenerator {
-}
+//package it.intersistemi.corsojava.polimorfism.exercises.polygonGenerator;
+//
+//public class TriangleGenerator {
+//}

@@ -1,8 +1,8 @@
 //package it.intersistemi.corsojava.polimorfism.exercises.polygonGenerator;
 //
+//import it.intersistemi.corsojava.polimorfism.exercises.polygon.Circle;
 //import it.intersistemi.corsojava.polimorfism.exercises.polygon.Pentagon;
 //import it.intersistemi.corsojava.polimorfism.exercises.polygon.Polygon;
-//import it.intersistemi.corsojava.polimorfism.exercises.polygon.Rectangle;
 //
 //import java.util.Arrays;
 //import java.util.Random;
@@ -16,7 +16,7 @@
 //    }
 //
 //    @Override
-//    public Rectangle generatePolygon() {
+//    public Circle generatePolygon() {
 //        Random value = new Random();
 //        return new Pentagon(value.nextInt(50));
 //    }

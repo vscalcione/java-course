@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.polimorfism.exercises.polygonGenerator;
-
-public class PolygonGeneratorMain {
-}
+//package it.intersistemi.corsojava.polimorfism.exercises.polygonGenerator;
+//
+//public class PolygonGeneratorMain {
+//}

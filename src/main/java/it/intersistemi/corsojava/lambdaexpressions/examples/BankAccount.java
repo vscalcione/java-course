@@ -8,44 +8,45 @@ import java.io.InputStreamReader;
 
 public class BankAccount {
 
-    private String accountHolderName;
-    private String accountHolderSurname;
+    private String holderName;
+    private String holderSurname;
     private int accountNumber;
-    private double currentAccountAvailability;
-    private double initialAccountAvailability;
-    private double maxiumOverdraft;
-    static BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+    private static double currentAccountAvailability;
+    private static double maxOverdraft;
+    private double initialAvailability;
+    BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
-    public BankAccount() {
-    }
+    public BankAccount() { }
 
-    public BankAccount(String accountHolderName, String accountHolderSurname, int accountNumber) {
-        this.accountHolderName = accountHolderName;
-        this.accountHolderSurname = accountHolderSurname;
+    public BankAccount(String holderName, String holderSurname, int accountNumber, double initialAvailability) {
+        super();
+        this.holderName = holderName;
+        this.holderSurname = holderSurname;
         this.accountNumber = accountNumber;
+        this.initialAvailability = initialAvailability;
     }
 
-    public BankAccount(String accountHolderName, String accountHolderSurname, int accountNumber, double initialAccountAvailability) {
-        this.accountHolderName = accountHolderName;
-        this.accountHolderSurname = accountHolderSurname;
-        this.accountNumber = accountNumber;
-        this.initialAccountAvailability = initialAccountAvailability;
+    public BankAccount(String holderName, String holderSurname, int accountNumberCounter) {
+        super();
+        this.holderName = holderName;
+        this.holderSurname = holderSurname;
+        this.accountNumber = accountNumberCounter;
     }
 
-    public String getAccountHolderName() {
-        return accountHolderName;
+    public String getHolderName() {
+        return holderName;
     }
 
-    public void setAccountHolderName(String accountHolderName) {
-        this.accountHolderName = accountHolderName;
+    public void setHolderName(String holderName) {
+        this.holderName = holderName;
     }
 
-    public String getAccountHolderSurname() {
-        return accountHolderSurname;
+    public String getHolderSurname() {
+        return holderSurname;
     }
 
-    public void setAccountHolderSurname(String accountHolderSurname) {
-        this.accountHolderSurname = accountHolderSurname;
+    public void setHolderSurname(String holderSurname) {
+        this.holderSurname = holderSurname;
     }
 
     public int getAccountNumber() {
@@ -56,55 +57,43 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    public double getCurrentAccountAvailability() {
+    public static double getCurrentAccountAvailability() {
         return currentAccountAvailability;
     }
 
-    public void setCurrentAccountAvailability(double currentAccountAvailability) {
-        this.currentAccountAvailability = currentAccountAvailability;
+    public static void setCurrentAccountAvailability(double currentAccountAvailability) {
+        BankAccount.currentAccountAvailability = currentAccountAvailability;
     }
 
-    public double getInitialAccountAvailability() {
-        return initialAccountAvailability;
+    public static double getMaxOverdraft() {
+        return maxOverdraft;
     }
 
-    public void setInitialAccountAvailability(double initialAccountAvailability) {
-        this.initialAccountAvailability = initialAccountAvailability;
+    public double getInitialAvailability() {
+        return initialAvailability;
     }
 
-    public double getMaxiumOverdraft() {
-        return maxiumOverdraft;
+    public void setInitialAvailability(double initialAvailability) {
+        this.initialAvailability = initialAvailability;
     }
 
-    public void setMaxiumOverdraft(double maxiumOverdraft) {
-        this.maxiumOverdraft = maxiumOverdraft;
-    }
-
-    public BufferedReader getConsole() {
-        return console;
-    }
-
-    public void setConsole(BufferedReader console) {
-        this.console = console;
-    }
-
-    public boolean withdrawal(double currentAccountAvailability) throws IOException {
-        double atmWithdrawal = ConsoleInputDouble.readDouble(console, "How much do you want to withdraw? ");
-        if(atmWithdrawal <= currentAccountAvailability){
-            currentAccountAvailability -= atmWithdrawal;
-            System.out.println("Withdrawal successful. You have withdrawn " + atmWithdrawal + " euros and your current balance is: "
-                    + currentAccountAvailability + " euros ");
+    public boolean withdrawMoney(double currentAccountAvailability, BufferedReader console) throws NumberFormatException, IOException {
+        double withDraw = ConsoleInputDouble.readDouble(console, "How much do you want to withdraw? ");
+        if(withDraw <= currentAccountAvailability){
+            currentAccountAvailability -= withDraw;
+            System.out.println("Withdrawal successful. You have withdrawn " + withDraw + " and your current balance is: " +
+                    currentAccountAvailability + " euros ");
             return true;
         }else{
             return false;
         }
     }
 
-    public boolean deposit(double currentAccountAvailability) throws IOException {
-        double atmDeposit = ConsoleInputDouble.readDouble(console, "How much do you want to deposit? ");
-        atmDeposit += currentAccountAvailability;
-        if(atmDeposit > 0){
-            System.out.println("Now your current balance is: " + atmDeposit + " euros ");
+    public boolean depositMoney(double currentAccountAvailability, BufferedReader console) throws NumberFormatException, IOException{
+        double deposit = ConsoleInputDouble.readDouble(console, "How much do you want to deposit? ");
+        deposit += currentAccountAvailability;
+        if(deposit > 0){
+            System.out.println("Now your current balance is: " + deposit + " euros ");
             return true;
         }else{
             return false;
@@ -115,32 +104,51 @@ public class BankAccount {
         return false;
     }
 
-//    public static void setMaxiumOverdraft(double value){
-//        value = 5000;
-//        if(value > 5000){
-//            System.out.println("Operation failed. Maximum limit exceeded ");
-//        }
-//    }
+    public static void setMaxOverdraft(double value){
+        value = 5000;
+        if(value > 5000){
+            System.out.println("Operation failed. Maximum limit exceeded ");
+        }
+    }
 
-//    public static void main(String[] args) {
-//        BankingInstitute bln = new BankingInstituteImpl("BNL", "00100", "12345");
-//        BankingInstitute intesaSanPaolo = new BankingInstituteImpl("Intesa San Paolo", "00200", "54321");
-//        BankingInstitute unicredit = new BankingInstituteImpl("Unicredit", "00300", "21435");
-//        try {
-//            int firstBankAccount = bnl.addBankAccount("clientName1", "clientSurname1");
-//            int secondBankAccount = intesaSanPaolo.addBankAccount("clientName1", "clientSurname1");
-//            int thirdBankAccount = unicredit.addBankAccount("clientName1", "clientSurname1");
-//            int fourthBankAccount = unicredit.addBankAccount("clientName1", "clientSurname1");
-//            unicredit.doBankTransfer(thirdBankAccount, bln, firstBankAccount, 300);
-//            unicredit.doBankTransfer(thirdBankAccount, intesaSanPaolo, secondBankAccount, 500);
-//
-//            System.out.println(bnl.);
-//            System.out.println("");
-//            System.out.println("");
-//            System.out.println("");
-//        } catch (BankAccountException exception) {
-//            exception.printStackTrace();
-//        }
-//
-//    }
+    public boolean withdrawMoney(double amount) {
+        if(amount <= currentAccountAvailability){
+            currentAccountAvailability -= amount;
+            System.out.println("Withdrawal successful. You have withdrawn " + amount + " and your current balance is: " +
+                    currentAccountAvailability + " euros ");
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public boolean depositMoney(double amount) {
+        amount += currentAccountAvailability;
+        if(amount > 0){
+            System.out.println("Now your current balance is: " + amount + " euros ");
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        BankingInstitute bnl = new BankingInstituteImpl("BNL", "00100", "12345");
+        BankingInstitute intesa = new BankingInstituteImpl("Intesa SanPaolo", "00200", "54321");
+        BankingInstitute unicredit = new BankingInstituteImpl("Unicredit", "00300", "21345");
+        try{
+            int firstBankAccount = bnl.addBankAccount("clientName1", "clientSurname1");
+            int secondBankAccount = intesa.addBankAccount("clientName2", "clientSurname2");
+            int thirdBankAccount = unicredit.addBankAccount("clientName3", "clientSurname3");
+            int fourthBankAccount = unicredit.addBankAccount("clientName4", "clientSurname4");
+            unicredit.doBankTransfer(thirdBankAccount, bnl, firstBankAccount, 300);
+            intesa.doBankTransfer(secondBankAccount, unicredit, fourthBankAccount, 500);
+            System.out.println(bnl.recoverBankAccountByNumber(firstBankAccount));
+            System.out.println(intesa.recoverBankAccountByNumber(secondBankAccount));
+            System.out.println(unicredit.recoverBankAccountByNumber(thirdBankAccount));
+            System.out.println(unicredit.recoverBankAccountByNumber(fourthBankAccount));
+        }catch(BankAccountException | IOException exception){
+            exception.printStackTrace();
+        }
+    }
 }

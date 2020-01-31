@@ -15,6 +15,18 @@ public class ArraySort {
             public int compare(String o1, String o2) {
                 return o1.compareTo(o2);
             }
+
+            /**
+             *  con l'istruzione o1.compareTo(o2) si ottiene la comparazione in ordine alfabetico,
+             *  ma moltiplicando per -1, si ottiene l'ordinamento inverso
+             */
+//            return -1 * o1.compareTo(o2);
+
+            /**
+             *  con la seguenre istruzione, invece, si ottiene l'ordinamento in base alle lunghezze della stringa analizzata
+             */
+//            return o1.length() - o2.length()
+
         });
         for (String element : arrayString) {
             System.out.println(element);

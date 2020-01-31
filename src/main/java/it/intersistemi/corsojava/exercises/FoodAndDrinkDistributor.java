@@ -54,146 +54,144 @@ public class FoodAndDrinkDistributor {
 		System.out.println("Rest: " + rest + " euros ");
 	}
 
-	public void brewsOrangeJuice(float importo) throws NumberFormatException, IOException{
-		importo = ConsoleInputFloat.readFloat(console, "Inserire importo: ");
-		if(importo < 1.20){
-			while(importo<1.20){
-				System.out.print("Importo troppo basso. Inserire altre monete ");
-				importo = ConsoleInputFloat.readFloat(console, "Inserire importo: ");
+	public void brewsOrangeJuice(float amount) throws NumberFormatException, IOException{
+		amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
+		if(amount < 1.20){
+			while(amount < 1.20){
+				System.out.print("Amount too low. Insert other coins ");
+				amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
 			}
 		}
-		if(importo == 1.20){
-			System.out.println("Resto non erogabile");
+		if(amount == 1.20){
+			System.out.println("Rest not payable ");
 		}
-		rest =(float)(importo - 1.20);
-		System.out.println("Bevanda erogata ");
-		System.out.println("Il resto � di: "+ rest +" euro ");
+		rest = (float)(amount - 1.20);
+		System.out.println("Drink dispensed ");
+		System.out.println("Rest: " + rest + " euros ");
 	}
 
 	public void brewsSandwichType1(float amount) throws NumberFormatException, IOException{
-		amount = ConsoleInputFloat.readFloat(console, "Inserire amount: ");
+		amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
 		if(amount < 1.40){
 			while(amount < 1.40){
-				System.out.print("Importo troppo basso. Inserire altre monete ");
-				amount = ConsoleInputFloat.readFloat(console, "Inserire amount: ");
+				System.out.print("Amount too low. Insert other coins ");
+				amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
 			}
 		}
 		if(amount == 1.40){
-			System.out.println("Resto non erogabile");
+			System.out.println("Rest not payable ");
 		}
-		rest =(float)(amount - 1.40);
-		System.out.println("Bevanda erogata ");
-		System.out.println("Il resto � di: "+ rest +" euro ");
+		rest = (float)(amount - 1.40);
+		System.out.println("Drink dispensed ");
+		System.out.println("Rest: " + rest + " euros ");
 	}
 
-	public void brewsSandwichType2(float importo)throws NumberFormatException, IOException{
-		importo = ConsoleInputFloat.readFloat(console, "Inserire importo: ");
-		if(importo < 1.60){
-			while(importo < 1.60){
-				System.out.print("Importo troppo basso. Inserire altre monete ");
-				importo = ConsoleInputFloat.readFloat(console, "Inserire importo: ");
+	public void brewsSandwichType2(float amount)throws NumberFormatException, IOException{
+		amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
+		if(amount < 1.60){
+			while(amount < 1.60){
+				System.out.print("Amount too low. Insert other coins ");
+				amount = ConsoleInputFloat.readFloat(console, "Insert amount: ");
 			}
 		}
-		if(importo == 1.60){
-			System.out.println("Resto non erogabile");
+		if(amount == 1.60){
+			System.out.println("Rest not payable ");
 		}
-		rest =(float)(importo - 1.60);
-		System.out.println("Bevanda erogata ");
-		System.out.println("Il resto � di: "+ rest +" euro ");
+		rest = (float)(amount - 1.60);
+		System.out.println("Drink dispensed ");
+		System.out.println("Rest: " + rest + " euros ");
 	}
 
-	public static void main(String[] args) {
-		float amount;
-		public static void main(String[] args) throws IOException, NumberFormatException {
-			int choice, var;
-			FoodAndDrinkDistributor drinksDistributor = new FoodAndDrinkDistributor();
-			FoodAndDrinkDistributor foodDistributor = new FoodAndDrinkDistributor();
-			BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
-			if (!drinksDistributor.distributorStatus){
-				do{
-					choice = ConsoleInputInt.readInt(console, "ErogatoreBevande spento. Premere 1 per accenderlo ");
-					if(choice != 1){
-						System.out.print("Error");
-					}
-				}
-				while(choice != 1);
-				drinksDistributor.turnOnDistributor();
-				do{
-					System.out.println("Premere 1 per erogare un caff� ");
-					System.out.println("Premre 2 per erogare un thea ");
-					System.out.println("Premere 3 per erogare un'aranciata ");
-					var = ConsoleInputInteri.leggiIntero(console, "Scelta: ");
-					if(var<1 || var>3){
-						System.out.println("Error");
-					}
-				}
-				while(var<1 || var>3);
-				if (var == 1){
-					System.out.println("Erogazione caff� ");
-					drinksDistributor.brewsCoffee(amount);
-				}
-				if (var == 2){
-					System.out.println("Erogazione thea ");
-					drinksDistributor.breawsThea(amount);
-				}
-				if (var == 3){
-					System.out.println("Erogazione aranciata ");
-					drinksDistributor.brewsOrangeJuice(amount);
+	public static void main(String[] args) throws IOException {
+		float amount = (float) 0.0;
+		int choice, elementChoice;
+		FoodAndDrinkDistributor drinksDistributor = new FoodAndDrinkDistributor();
+		FoodAndDrinkDistributor foodDistributor = new FoodAndDrinkDistributor();
+		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+		if (!drinksDistributor.distributorStatus){
+			do{
+				choice = ConsoleInputInt.readInt(console, "Drink distributor off. Press 1 to turn it on ");
+				if(choice != 1){
+					System.out.print("Error");
 				}
 			}
-			else{
-				do{
-					System.out.println("Premere 1 per erogare un caff� ");
-					System.out.println("Premere 2 per erogare un thea ");
-					System.out.println("Premere 3 per erogare un'aranciata ");
-					var = ConsoleInputInteri.leggiIntero(console, "Scelta: ");
-					if (var<1 || var>3){
-						System.out.print("Error");;
-					}
-				}
-				while(var<1 || var>3);
-				if (var == 1){
-					System.out.println("Erogazione caff� ");
-					drinksDistributor.brewsCoffee(amount);
-				}
-				if (var == 2){
-					System.out.println("Erogazione thea ");
-					drinksDistributor.breawsThea(amount);
-				}
-				if (var == 3){
-					System.out.println("Erogazione aranciata ");
-					drinksDistributor.brewsOrangeJuice(amount);
+			while(choice != 1);
+			drinksDistributor.turnOnDistributor();
+			do{
+				System.out.println("Press 1 to brew a coffee  ");
+				System.out.println("Press 2 to brew a thea ");
+				System.out.println("Press 3 to brea an orange juice ");
+				elementChoice = ConsoleInputInt.readInt(console, "Choice: ");
+				if(elementChoice < 1 || elementChoice > 3){
+					System.out.println("Error");
 				}
 			}
-			if (foodDistributor.distributorStatus==false){
-				do{
-					choice = ConsoleInputInteri.leggiIntero(console, "ErogatoreCibi spento. Premere 1 per accenderlo ");
-					if(choice != 1){
-						System.out.print("Error");
-					}
-				}
-				while (choice != 1);
-				foodDistributor.turnOnDistributor();
-				do{
-					System.out.println("Premere 1 per erogare un panino ");
-					System.out.println("Premere 2 per erogare un tramezzino ");
-					var = ConsoleInputInteri.leggiIntero(console, "Scelta: ");
-					if(var<1 || var>2){
-						System.out.print("Error");
-					}
-				}
-				while(var<1 || var>2);
-				if (var == 1){
-					System.out.println("Erogazione panino ");
-					foodDistributor.brewsSandwichType1(amount);
-				}
-				if (var == 2){
-					System.out.println("Erogazione tramezzino ");
-					foodDistributor.brewsSandwichType2(amount);
-				}
+			while(elementChoice < 1 || elementChoice > 3);
+			if (elementChoice == 1){
+				System.out.println("Coffee brewing");
+				drinksDistributor.brewsCoffee(amount);
 			}
-			drinksDistributor.turnOffDistributor();
-			foodDistributor.turnOffDistributor();
+			if (elementChoice == 2){
+				System.out.println("Thea brewing ");
+				drinksDistributor.breawsThea(amount);
+			}
+			if (elementChoice == 3){
+				System.out.println("Orange juice brewing ");
+				drinksDistributor.brewsOrangeJuice(amount);
+			}
 		}
+		else{
+			do{
+				System.out.println("Press 1 to brew a coffee  ");
+				System.out.println("Press 2 to brew a thea ");
+				System.out.println("Press 3 to brea an orange juice ");
+				elementChoice = ConsoleInputInt.readInt(console, "Choice: ");
+				if(elementChoice < 1 || elementChoice > 3){
+					System.out.println("Error");
+				}
+			}
+			while(elementChoice<1 || elementChoice>3);
+			if (elementChoice == 1){
+				System.out.println("Coffee brewing ");
+				drinksDistributor.brewsCoffee(amount);
+			}
+			if (elementChoice == 2){
+				System.out.println("Thea brewing ");
+				drinksDistributor.breawsThea(amount);
+			}
+			if (elementChoice == 3){
+				System.out.println("Orange juice brewing ");
+				drinksDistributor.brewsOrangeJuice(amount);
+			}
+		}
+		if (!foodDistributor.distributorStatus){
+			do{
+				choice = ConsoleInputInt.readInt(console, "Food distributor off. Press 1 to turn it on ");
+				if(choice != 1){
+					System.out.print("Error");
+				}
+			}
+			while (choice != 1);
+			foodDistributor.turnOnDistributor();
+			do{
+				System.out.println("Press 1 to brews 1st type of sandwich ");
+				System.out.println("Press 2 to brews 2nd type of sandwich ");
+				elementChoice = ConsoleInputInt.readInt(console, "Choice: ");
+				if(elementChoice < 1 || elementChoice > 2){
+					System.out.print("Error");
+				}
+			}
+			while(elementChoice < 1 || elementChoice > 2);
+			if (elementChoice == 1){
+				System.out.println("1st Sandwich type brewing ");
+				foodDistributor.brewsSandwichType1(amount);
+			}
+			if (elementChoice == 2){
+				System.out.println("2st Sandwich type brewing ");
+				foodDistributor.brewsSandwichType2(amount);
+			}
+		}
+		drinksDistributor.turnOffDistributor();
+		foodDistributor.turnOffDistributor();
 	}
 }

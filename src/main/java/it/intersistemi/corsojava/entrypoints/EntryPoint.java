@@ -31,7 +31,7 @@ public class EntryPoint {
             System.out.println("****************************************************");
             isValidArrayIndex = arrayIndex < arrayResults.length;
             arrayResults[arrayIndex] = sum;
-            System.out.println("Stato variabile booleana: "+isValidArrayIndex);
+            System.out.println("Boolean variable state: "+ isValidArrayIndex);
         }else{
             if(choice == 2){
                 firstValue = ConsoleInputInt.readInt(console, "Insert first value: ");

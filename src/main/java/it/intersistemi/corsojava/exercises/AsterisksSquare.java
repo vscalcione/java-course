@@ -25,7 +25,7 @@ public class AsterisksSquare {
 			System.out.println("You insert a negative value ");
 		}
 	}
-	
+
 	public static void main(String[] args) throws IOException, NumberFormatException{
 		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 		int value = ConsoleInputInt.readInt(console, "Insert value: ");

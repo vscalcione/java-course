@@ -5,11 +5,19 @@ import java.util.Comparator;
 
 public class ArraySort {
     public static void main(String[] args) {
-        printArray();
+        sortingArray();
     }
 
-    public static void printArray(){
+    public static void printArray(String[] arrayString){
+        for (String element : arrayString) {
+            System.out.println(element);
+        }
+    }
+    public static void sortingArray(){
         String[] arrayString = new String[]{"aaaaa", "ddddddd", "ooooo", "bbbbbb", "lllll", "mmmmmmm"};
+        System.out.println("Ordino l'array ");
+        printArray(arrayString);
+        System.out.println("Altro tipo di ordinamento ");
         Arrays.sort(arrayString, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -28,8 +36,6 @@ public class ArraySort {
 //            return o1.length() - o2.length()
 
         });
-        for (String element : arrayString) {
-            System.out.println(element);
-        }
+        printArray(arrayString);
     }
 }

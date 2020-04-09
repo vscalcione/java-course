@@ -1,10 +1,13 @@
-package it.intersistemi.corsojava.exercises.filesender;
+package it.intersistemi.corsojava.exercises;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.*;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 public class FileSender {
 
@@ -38,6 +41,13 @@ public class FileSender {
             }
         });
 
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
+
         frame.add(clientButton, BorderLayout.EAST);
         frame.add(serverButton, BorderLayout.WEST);
         frame.pack();
@@ -67,6 +77,14 @@ public class FileSender {
                 }
             }
         });
+
+        clientGui.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
+
         clientPanel = new Panel();
 
         clientPanel.add(connectButton);
@@ -95,6 +113,13 @@ public class FileSender {
                 System.out.println(fileDialog.getFile());
             }
         });
+
+        serverGui.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
         serverPanel.add(fileSelectButton);
         serverGui.add(serverPanel, BorderLayout.NORTH);
         serverPanel = new Panel();
@@ -106,12 +131,65 @@ public class FileSender {
                 }catch(IOException ex){ex.printStackTrace();}
             }
         });
+
         serverPanel.add(sendFileButton);
 
         serverGui.add(serverPanel, BorderLayout.SOUTH);
 
         serverGui.pack();
         serverGui.setVisible(true);
+    }
+
+    public static class Client{
+        public Client(String ipAddress) throws IOException {
+            receiveFile(ipAddress);
+        }
+
+        private void receiveFile(String ipAddress) throws IOException {
+            int port = 9999;
+            Socket s = new Socket(ipAddress, port);
+            DataInputStream dis = new DataInputStream(s.getInputStream());
+            String fileName = dis.readLine();
+            s.close();
+            File inputFile = new File(fileName);
+            Socket conn = new Socket(ipAddress, port);
+            InputStream is = conn.getInputStream();
+            FileOutputStream fos = new FileOutputStream(inputFile);
+            int tmp  = 0;
+            while((tmp = is.read()) != -1){
+                fos.write(tmp);
+            }
+
+        }
+    }
+
+    public static class Server{
+        private ServerSocket ss;
+        private File myFile;
+        private String fileName;
+
+        public void setFile(File file){
+            myFile = file;
+            fileName = myFile.getName();
+        }
+
+        public Server(File file) throws IOException {
+            setFile(file);
+            ss = new ServerSocket(9999);
+            Socket nameSenderSocket = ss.accept();
+            PrintStream ps = new PrintStream(nameSenderSocket.getOutputStream());
+            ps.println(fileName);
+            nameSenderSocket.close();
+            FileInputStream fis = new FileInputStream(myFile);
+            byte[] binaryFile = new byte[(int)myFile.length()];
+            fis.read(binaryFile);
+            Socket s = ss.accept();
+            OutputStream os = s.getOutputStream();
+            os.write(binaryFile);
+            fis.close();
+            os.close();
+            s.close();
+        }
     }
 
     public static void main(String args[]){

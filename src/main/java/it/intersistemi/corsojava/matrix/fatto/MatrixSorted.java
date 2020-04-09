@@ -8,7 +8,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class ArraySorted {
+public class MatrixSorted {
+
 	public static void main(String[] args) throws IOException {
 		Random value = new Random();
 		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
@@ -17,14 +18,15 @@ public class ArraySorted {
 		int[][] matrix = new int[rows][columns];
 		System.out.println("Original Matrix ");
 		for (int i = 0; i < rows; i++) {
-			for (int j = 0; i < columns; i++) {
-				matrix[i][j] = value.nextInt(10) + 1;
+			for (int j = 0; j < columns; j++) {
+				matrix[i][j] = value.nextInt(10);
 			}
 		}
 		for (int i = 0; i < rows; i++) {
-			for (int j = 0; i < columns; i++) {
-				System.out.print(" | " + matrix[i][j]);
+			for (int j = 0; j < columns; j++) {
+				System.out.print(matrix[i][j] + "\t");
 			}
+			System.out.println();
 		}
 
 		System.out.println("");
@@ -39,7 +41,7 @@ public class ArraySorted {
 	
 	public static boolean isCrescente(int matrix[][], int rows, int columns) {
 		for (int i = 0; i < rows; i++) {
-			for (int j = 0; i < columns; i++) {
+			for (int j = 0; i < columns; j++) {
 				if(matrix[i][j] >= matrix[i][j + 1] && matrix[i][j] >= matrix[i + 1][j]) {
 					return false;
 				}

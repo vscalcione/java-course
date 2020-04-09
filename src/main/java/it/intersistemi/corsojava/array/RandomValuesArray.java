@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class RandomValuesArray {
 	public static void main(String[] args) {
-		System.out.println("********** Risultato ottenuto: *************** ");
+		System.out.println("********** Obtained result: *************** ");
 		generatorePseudoArrayRandomValoriPari();
 	}
 	

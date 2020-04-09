@@ -26,7 +26,6 @@ public class AverageIntValuesArray {
 		for (int index = 0; index < array.length; index++) {
 			sum += array[index];
 		}
-		float average = (float) sum / (array.length);
-		return average;
+		return (float) sum / (array.length);
 	}
 }

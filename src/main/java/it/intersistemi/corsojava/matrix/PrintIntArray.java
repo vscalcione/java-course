@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.array;
+package it.intersistemi.corsojava.matrix;
 
 import it.intersistemi.corsojava.consoleinput.ConsoleInputInt;
 

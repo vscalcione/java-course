@@ -53,4 +53,13 @@ public class Data {
     private int calculateDays(Data data) {
         return data.getYear() * 365 + data.getMonth() * 30 + data.getDay();
     }
+
+    @Override
+    public String toString() {
+        return "Data{" +
+                "day=" + day +
+                ", month=" + month +
+                ", year=" + year +
+                '}';
+    }
 }

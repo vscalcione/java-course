@@ -6,6 +6,7 @@ import it.intersistemi.corsojava.consoleinput.ConsoleInputInt;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Random;
 
 public class MatrixSorted {
@@ -36,9 +37,30 @@ public class MatrixSorted {
 		}
 		else {
 			System.out.println("Array not sorted or not in ascending order ");
+			sortMatrix(matrix, rows, columns);
+			for (int i = 0; i < rows; i++) {
+				for (int j = 0; j < columns; j++) {
+					System.out.print(matrix[i][j] + "\t");
+				}
+				System.out.println();
+			}
 		}
 	}
-	
+
+	public static void sortMatrix(int[][] matrix, int rows, int columns){
+		for(int i = 0; i < rows; i++){
+			for(int j = 0; j < columns; j++){
+				for(int k = 0; k < columns - 1; k++){
+					if(matrix[i][k] > matrix[i][k + 1]){
+						int tmp = matrix[i][k + 1];
+						matrix[i][k + 1] = matrix[i][k];
+						matrix[i][k] = tmp;
+					}
+				}
+			}
+		}
+	}
+
 	public static boolean isCrescente(int matrix[][], int rows, int columns) {
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; i < columns; j++) {

@@ -12,7 +12,7 @@ public class MatrixMaxIndex {
 	public static void main(String[] args) throws IOException {
 		int result = searchMaxIndex();
 		System.out.println("**********************");
-		System.out.println("Max element of the array is located in position:  [" + result + "]");
+		System.out.println("Max element of the array is:  [" + result + "]");
 	}
 
 	public static int searchMaxIndex() throws IOException {
@@ -25,20 +25,20 @@ public class MatrixMaxIndex {
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < columns; j++) {
 				matrix[i][j] = value.nextInt(100);
-				System.out.println("Position [" + i + "][" + j + "] : " + matrix[i][j]);
+				System.out.print(matrix[i][j] + "\t");
 			}
+			System.out.println();
 		}
 		int max, maxIndex;
 		maxIndex = matrix[0][0];
 		max = matrix[0][0];
 		for (int i = 0; i < rows; i++) {
-			for (int j = 0; i < columns; i++) {
+			for (int j = 0; j < columns; j++) {
 				if (matrix[i][j] > max) {
 					max = matrix[i][j];
-					maxIndex = i;
 				}
 			}
 		}
-		return maxIndex;
+		return max;
 	}
 }

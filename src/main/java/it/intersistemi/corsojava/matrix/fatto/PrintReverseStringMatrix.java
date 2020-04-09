@@ -16,14 +16,15 @@ public class PrintReverseStringMatrix {
 		String[][] matrix = new String[rows][columns];
 		for(int i = 0; i < rows; i++){
 			for(int j = 0; j < columns; j++){
-				String value = ConsoleInputString.readString(console, "Insert element: ");
+				String value = ConsoleInputString.readString(console, "Insert element at position[" + i + "][" + j +"]: ");
 				matrix[i][j] = value;
 			}
 		}
 		for(int i = rows - 1; i >= 0; i--) {
 			for(int j = columns - 1; j >= 0; j--) {
-				System.out.println(matrix[i][j]);
+				System.out.print(matrix[i][j] + "\t");
 			}
+			System.out.println();
 		}
 	}
 }

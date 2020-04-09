@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class AverageIntValuesArray {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 		int rows = ConsoleInputInt.readInt(console, "Insert rows: ");

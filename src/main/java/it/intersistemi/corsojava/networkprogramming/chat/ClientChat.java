@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.networkprogramming;
+package it.intersistemi.corsojava.networkprogramming.chat;
 
 import it.intersistemi.corsojava.consoleinput.ConsoleInputString;
 

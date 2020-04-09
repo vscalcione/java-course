@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exercises;
+package it.intersistemi.corsojava.networkprogramming;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exceptions.fruitexcercise;
+package it.intersistemi.corsojava.exceptions.exercises;
 
 public abstract class Fruit {
     private int weight;

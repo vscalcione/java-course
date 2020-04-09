@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exceptions.fruitexcercise;
+package it.intersistemi.corsojava.exceptions.exercises;
 
 public class Apple extends Fruit{
     public Apple(int weight) {

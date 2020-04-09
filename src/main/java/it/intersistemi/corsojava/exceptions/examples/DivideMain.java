@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exceptions;
+package it.intersistemi.corsojava.exceptions.examples;
 
 import java.util.Random;
 

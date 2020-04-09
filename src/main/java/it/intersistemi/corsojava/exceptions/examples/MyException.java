@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exceptions;
+package it.intersistemi.corsojava.exceptions.examples;
 
 public class MyException extends Exception{
     private static final long serialVersionUID = -4330525837054650071L;
@@ -15,7 +15,7 @@ public class MyException extends Exception{
     }
     public MyException(int value, Throwable cause) {
         super(cause);
-        this.value=value;
+        this.value = value;
     }
 
     public MyException(int value, String message, Throwable cause) {

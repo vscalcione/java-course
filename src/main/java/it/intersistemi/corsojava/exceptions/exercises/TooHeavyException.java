@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.exceptions.fruitexcercise;
+package it.intersistemi.corsojava.exceptions.exercises;
 
 public class TooHeavyException extends Exception{
     public TooHeavyException(String message) {

@@ -15,9 +15,9 @@ public class ArraySort {
     }
     public static void sortingArray(){
         String[] arrayString = new String[]{"aaaaa", "ddddddd", "ooooo", "bbbbbb", "lllll", "mmmmmmm"};
-        System.out.println("Ordino l'array ");
+        System.out.println("Sort my array ");
         printArray(arrayString);
-        System.out.println("Altro tipo di ordinamento ");
+        System.out.println("Other type of sorting ");
         Arrays.sort(arrayString, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -25,8 +25,8 @@ public class ArraySort {
             }
 
             /**
-             *  con l'istruzione o1.compareTo(o2) si ottiene la comparazione in ordine alfabetico,
-             *  ma moltiplicando per -1, si ottiene l'ordinamento inverso
+             *  con l'istruzione o1.compareTo(o2) si ottiene la comparazione in ordine alfabetico ma moltiplicando per -1,
+             *  si ottiene l'ordinamento inverso
              */
 //            return -1 * o1.compareTo(o2);
 

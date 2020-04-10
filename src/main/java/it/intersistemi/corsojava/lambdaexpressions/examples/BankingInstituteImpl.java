@@ -3,6 +3,7 @@ package it.intersistemi.corsojava.lambdaexpressions.examples;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -12,14 +13,17 @@ public class BankingInstituteImpl implements BankingInstitute{
     private String bankingInstituteName;
     private String abi;
     private String cab;
-    Map<Integer, BankAccount> bankAccounts;
 
     public BankingInstituteImpl(String bankingInstituteName, String abi, String cab) {
         super();
         this.bankingInstituteName = bankingInstituteName;
         this.abi = abi;
         this.cab = cab;
+        bankAccounts = new HashMap<>();
     }
+
+    Map<Integer, BankAccount> bankAccounts;
+
 
     @Override
     public int addBankAccount(String holderName, String holderSurname) throws BankAccountException, NumberFormatException, IOException {

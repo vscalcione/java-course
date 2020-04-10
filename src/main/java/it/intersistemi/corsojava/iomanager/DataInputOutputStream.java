@@ -9,13 +9,13 @@ public class DataInputOutputStream {
 
         String currentWorkingDirectory = System.getProperty("user.dir");
         System.out.println("Current Working Directory: " + currentWorkingDirectory);
-        try(FileInputStream fis = new FileInputStream("prova.dat");
-            DataInputStream dis = new DataInputStream(fis);
+        try(FileInputStream fileInputStream = new FileInputStream("prova.dat");
+            DataInputStream dataInputStream = new DataInputStream(fileInputStream);
         ){
 
-            System.out.println(dis.readInt());
-            System.out.println(dis.readDouble());
-            System.out.println(dis.readUTF());
+            System.out.println(dataInputStream.readInt());
+            System.out.println(dataInputStream.readDouble());
+            System.out.println(dataInputStream.readUTF());
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -25,13 +25,13 @@ public class DataInputOutputStream {
     }
 
     public static void dataOutputStream(){
-        try(FileOutputStream fos = new FileOutputStream("prova.dat");
-            BufferedOutputStream bis = new BufferedOutputStream(fos);
+        try(FileOutputStream fileOutputStream = new FileOutputStream("prova.dat");
+            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
         ){
-            DataOutputStream das = new DataOutputStream(bis);
-            das.writeInt(15);
-            das.writeDouble(54.936);
-            das.writeUTF("Write test");
+            DataOutputStream dataOutputStream = new DataOutputStream(bufferedOutputStream);
+            dataOutputStream.writeInt(15);
+            dataOutputStream.writeDouble(54.936);
+            dataOutputStream.writeUTF("Write test");
         }catch(IOException e){
             e.printStackTrace();
         }

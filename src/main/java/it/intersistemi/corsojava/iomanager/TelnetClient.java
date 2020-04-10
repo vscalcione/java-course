@@ -34,10 +34,10 @@ public class TelnetClient {
             InputStream socketInput = socket.getInputStream();
         ){
             initServerMessageConsole(socketInput);
-            PrintWriter pw = new PrintWriter(socketOutput, true);
+            PrintWriter printerWriter = new PrintWriter(socketOutput, true);
             String line;
             while((line = console.readLine()) != null){
-                pw.println(line);
+                printerWriter.println(line);
             }
         } catch (UnknownHostException e) {
             e.printStackTrace();

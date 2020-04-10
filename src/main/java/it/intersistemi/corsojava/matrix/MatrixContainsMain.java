@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class MatrixCoantainsMain {
+public class MatrixContainsMain {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
@@ -46,7 +46,7 @@ public class MatrixCoantainsMain {
 		}
 		return false;
 	}
-	
+
 	public static boolean contains(Object e, Object matrixInt[][], int rows, int columns) {
 		for (int i = 0; i < rows; i++) {
 			for(int j = 0; j < columns; j++){

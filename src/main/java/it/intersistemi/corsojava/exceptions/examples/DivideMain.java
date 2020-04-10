@@ -12,7 +12,7 @@ public class DivideMain {
             try{
                 result = firstValue / secondValue;
             }catch(ArithmeticException exception) {
-                System.out.println(firstValue + " / "+" = Error: " + exception.getMessage());
+                System.out.println(firstValue + " / "+ secondValue + " ==> Error: " + exception.getMessage());
             }
             finally {
                 if(result != null) {

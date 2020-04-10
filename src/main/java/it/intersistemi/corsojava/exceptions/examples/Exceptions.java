@@ -1,5 +1,10 @@
 package it.intersistemi.corsojava.exceptions.examples;
 
+import it.intersistemi.corsojava.consoleinput.ConsoleInputInt;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Exceptions {
@@ -7,15 +12,17 @@ public class Exceptions {
     public Exceptions() {
     }
 
-    public static void method1(){
-        int[] t = null;
+    public static void method1() throws IOException {
+        int[] array = null;
+        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+        int item = ConsoleInputInt.readInt(console, "Insert element: ");
         try{
-            t[0] = 7;
+            array[0] = item;
         }catch(Exception e){
             System.out.println("Variable not allocated in memory ");
             e.printStackTrace();
-            t = new int[] {7};
-            System.out.print(t[0]);
+            array = new int[] {item};
+            System.out.print(array[0]);
         }
         finally {
             System.out.println("Anyway, I went through here ");
@@ -42,7 +49,7 @@ public class Exceptions {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         method1();
         method2();
     }

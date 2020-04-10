@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="java-course-intersistemi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>java-course-intersistemi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="java-course-intersistemi-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="java-course-intersistemi:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,16 +1,18 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: vscalcione
-  Date: 22/01/20
-  Time: 08:06
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Index</title>
+	</head>
+	<body>
+		<center><h3>@PathVariable annotation in Spring MVC</h3></center>
+		<hr />
+		<div id="links">
+			<a id="str" href="/str/Italy/Vincenzo">PathVariable using String</a>
+			<div>&nbsp;</div>
+			<a id="map" href="/map/Spain/Charlotte">PathVariable using Map</a>
+		</div>
+	</body>
 </html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="java-course-intersistemi:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_course_intersistemi_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="java-course-intersistemi/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

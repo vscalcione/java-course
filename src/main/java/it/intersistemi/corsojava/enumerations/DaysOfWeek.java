@@ -1,5 +1,11 @@
 package it.intersistemi.corsojava.enumerations;
 
+import it.intersistemi.corsojava.consoleinput.ConsoleInputInt;
+import it.intersistemi.corsojava.consoleinput.ConsoleInputString;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -40,7 +46,8 @@ public enum DaysOfWeek {
         isHoliday = holiday;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
         DaysOfWeek[] daysOfWeek = DaysOfWeek.values();
         for (int i = 0; i < daysOfWeek.length; i++) {
             printDaysOfWeek(daysOfWeek[i]);
@@ -64,6 +71,17 @@ public enum DaysOfWeek {
         for (int i = 0; i < days.length; i++) {
             printDaysOfWeek(days[i]);
         }
+
+        do{
+            String day = ConsoleInputString.readString(console, "Insert day: ");
+            try{
+                DaysOfWeek dayEnum = DaysOfWeek.valueOf(day.toUpperCase());
+                System.out.println(day + " : " + (dayEnum.isHoliday() ? "holiday" : "weekday"));
+            }catch(Exception e){
+                System.err.println(e.getClass().getName() + " : " + e.getMessage());
+                break;
+            }
+        }while(true);
     }
 
     public static void printDaysOfWeek(DaysOfWeek dayOfTheWeek) {

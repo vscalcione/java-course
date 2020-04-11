@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.threads.todaytomorrow;
+package it.intersistemi.corsojava.threads.exercises.todaytomorrow;
 
 public class PrintTodayTomorrowMain {
 

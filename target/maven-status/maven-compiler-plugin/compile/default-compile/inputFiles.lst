@@ -1,182 +1,236 @@
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/NumericMatrix.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/MathFunctions.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/BankAccount.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/AsterisksTriangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/RandomValuesArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/IfUse.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/Punto.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/GuessTheNumberGame.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/DayOfTomorrow.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/CircleGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/collections/ListOperations.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/ArrayGeneratorGenerics.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/entrypoints/Calculations.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/webinterface/VerifyString.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/threads/todaytomorrow/PrintTodayTomorrowMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/LambdaExpressionExample.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/PrintReverseString.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/AverageIntValuesMatrixMultiples3.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/FileSender.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/AbstractPolygon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/TriangleGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/NumberCounter.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/Employee.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/BranchOffice.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Rectangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/PolygonGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/AsterisksSquare.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/LambdaExpressionMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/RandomValuesMatrix.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/SumNumbers.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/RectangleFromQuadrilateral.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/PeachFruit.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/GroupPersonMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Circle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/Moltiplicazione.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/BankingInstitute.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/HelloWorld.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/PrintReverseStringArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/EquazioneDiSecondoGrado.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/BankAccountException.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/consoleinput/ConsoleInputDouble.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/HelloWorld.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/EmployeeA.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/examples/MyException.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/entrypoints/EntryPoint.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/threads/todaytomorrow/SecondThread.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/BankAccountSimulation.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/consoleinput/ConsoleInputInt.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/TooHeavyException.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/MatrixMaxIndex.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/MatrixContainsMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/OutOfRangeElement.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/jdbc/ModifyDatabase.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/FoodAndDrinkDistributor.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/MoneyChanger.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/Sum10Numbers.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/examples/GenericsTestMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/PolygonFactory.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/Orange.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/PrintIntMatrix.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/DVD.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/ArrayInterface.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/jdbc/JdbcConnectionMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/PrintValueMultiples.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/AbstractTriangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/examples/BaseDerivateMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/TestArrayList.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/StaticValueExample.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/nestedclasses/StringArraySorted.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/MaxMin3Values.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/TestStaticVariablesAndClasses.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/PrintAsterisks.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/ChineseMorra.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/Person.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/AddString.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/incapsulation/Bancomat.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/PolygonGeneratorMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/GetTriangleType.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/CurrentElementArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/PrintIntArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/PrintReverseMatrixInt.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/Sex.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/examples/Exceptions.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/collections/UserCollectionForeach.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/ArrayCalc.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/EqualsElementArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/CalculateAge.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/CircleFromAbstractPolygon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/AverageIntValuesArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Polygon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/Basket.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/IfMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/threads/todaytomorrow/Printer.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/webinterface/App.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/networkprogramming/clock/ServerClock.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/springframework/pathvariable/SpringMvcPathVariableMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Pentagon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/SearchMaxMinValueMatrix.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/Employee.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/FibonacciSequence.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/networkprogramming/chat/ServerChat.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/ClasseDelCorso.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/examples/ExceptionStackMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/iomanager/DataInputOutputStream.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/networkprogramming/StringServer.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/entrypoints/EntryPoint1.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/GenericPolygon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/iomanager/FileReader.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/ArraySorted.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/AverageIntValuesArrayMultiples3.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/consoleinput/ConsoleInputString.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/Library.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/examples/Base.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/networkprogramming/clock/ClientClock.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/PrintReverseStringMatrix.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/EqualsElementArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/SquareGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/PositiveNegativeSum.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/anonymousclass/ArraySort.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Triangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Square.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/matrix/fatto/MatrixSorted.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/FuelDispenser.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/threads/todaytomorrow/FirstThread.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/IfMainConsole.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/Book.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/PersonMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/networkprogramming/chat/ClientChat.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/iomanager/DataInputStream.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/examples/DivideMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/SquareFromRectangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/Apple.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/DiceGame.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/OnlyVowels.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/ScientificCalculator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/MaggioreMinore.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/CurrentElementArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/collections/ListMainExample.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/entrypoints/ArrayManager.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/Factorial.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/Data.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/ArrayContainsMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/ereditariety/AlimentarProduct.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/Test.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/EquilateralTriangle.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/ereditariety/MarketProduct.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/ZerosCounter.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/StudentExam.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/AverageIntValuesArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/test/ManipulationData.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/CheckPerson.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/PrintReverseArrayInt.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/library/LambdaExpression.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/InstanceCounter.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/CyclesUse.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/flowcontrol/PrintReverseArray.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/TestMenu.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/examples/Derivate.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/SearchMaxMinValue.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/exercises/Person.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/ConcatenateStrings.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/ereditariety/ShoppingList.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/array/ArrayMaxIndex.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/RectangleGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/consoleinput/ConsoleInputFloat.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/ereditariety/NotAlimentarProduct.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/collections/SortedSet.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/PentagonGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/generics/exercises/MultiKeyMapMain.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/ElementNotFound.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/lambdaexpressions/examples/BankingInstituteImpl.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/entrypoints/Math.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/incapsulation/Punto.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygonGenerator/EquilateralTriangleGenerator.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exercises/nicolapackage/Array.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/exceptions/exercises/Fruit.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Quadrilateral.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/iomanager/TelnetClient.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/RegularPolygon.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/incapsulation/Day.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/iomanager/CopyFile.java
-/home/vscalcione/Documenti/java-course-intersistemi/src/main/java/it/intersistemi/corsojava/polimorfism/exercises/polygon/Trapeze.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\TestMenu.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\FibonacciSequence.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\MaggioreMinore.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\abc\B2.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\PrintAsterisks.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\AbstractTriangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\consoleinput\ConsoleInputString.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\GenericPolygon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Polygon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\classContinue.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\PrintIntArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\MultiKeyMapMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\BankAccount.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\consoleinput\ConsoleInputFloat.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\AverageIntValuesArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\calculator\Main.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\rowmapper\mapper\EmployeeRowMapper.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\PrintReverseMatrixInt.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print20values\Thread2.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\ereditariety\AlimentarProduct.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\jdbc\ModifyDatabase.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\entrypoints\Math.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\Employee.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\MaxMin3Values.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\CircleFromAbstractPolygon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\Person.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\PrintReverseArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\DayOfTomorrow.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print9to0\PrintValues0to9And9to0.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\gettersetter\IdentityCard.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\ArrayContainsMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\CyclesUse.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Circle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Triangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\SquareGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\StaticValueExample.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\TriangleGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\mainPersone.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\calculator\CalculatorUIController.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\DataInputStream.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\EquilateralTriangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\IfMainConsole.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\Point.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\Moltiplicazione.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\todaytomorrow\SecondThread.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\ArrayGeneratorGenerics.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\Sex.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\formvalidation\FormControl.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\BankingInstitute.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\TestStaticVariablesAndClasses.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print9to0\Printer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\DVD.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\basederivate\BaseDerivateMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\IfUse.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\CurrentElementArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\EqualsElementArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\RandomValuesMatrix.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\FileReader.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\TestArrayList.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\AbstractPolygon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\fatto\Cases.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\NumberCounter.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\Warehouse.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\OutOfRangeElement.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\networkprogramming\clock\ServerClock.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print9to0\Thread2.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print0to10\Thread2.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\CalculateAge.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\IfMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\incapsulation\Day.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\MatrixContainsMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\TestVal.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\consoleinput\ConsoleInputDouble.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\Apple.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\BranchOffice.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\ereditariety\ShoppingList.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\ereditariety\MarketProduct.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\BankingInstituteImpl.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\PrintReverseStringMatrix.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\ChineseMorra.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\PersonMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\AsterisksSquare.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Trapeze.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\collections\ListOperations.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\networkprogramming\StringServer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\jdbc\JdbcConnectionMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\Sommafun.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\PrintReverseString.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\formvalidation\User.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\todaytomorrow\PrintTodayTomorrowMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\OnlyVowels.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Rectangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\ArrayCalc.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\examples\ThreadJoin.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\rowmapper\AppMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\gettersetter\Person.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\HelloWorld.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\Swap.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\RegularPolygon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\collections\ListMainExample.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\todaytomorrow\FirstThread.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\CheckPerson.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\MoneyChanger.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\Book.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\GuessTheNumberGame.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\RectangleGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\abc\A.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\FoodAndDrinkDistributor.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\Array.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\FileSender.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\BankAccountSimulation.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\ManipulationData.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\PolygonFactory.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\examples\Counter.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\NumericMatrix.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\webinterface\VerifyString.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\webinterface\App.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\examples\MyException.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\Consumer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Quadrilateral.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\PointSwap.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\AverageIntValuesArrayMultiples3.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\PolygonGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\abc\C.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\Basket.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\PentagonGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\pathvariable\SpringMvcPathVariableMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\rowmapper\dao\EmployeeDaoImpl.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\CurrentElementArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\Factorial.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\PrintReverseArrayInt.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\abc\B1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\Manufactorer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\ElementNotFound.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\basederivate\Derivate.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\TooHeavyException.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\Orange.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\LambdaExpressionMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\PolygonGeneratorMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\EquilateralTriangleGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\DataInputOutputStream.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\EqualsElementArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\collections\UserCollectionForeach.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\ArrayMaxIndex.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\entrypoints\ArrayManager.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\nestedclasses\StringArraySorted.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\enumerations\Direction.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\exi1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\SearchMaxMinValueArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\PrintValueMultiples.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print0to10\Print0To10.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\entrypoints\EntryPoint1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\LambdaExpressionExample.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\examples\ThreadMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\SquareFromRectangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\WarehouseSimple.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\ScientificCalculator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\ConcatenateStrings.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\StudentExam.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\Punto.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\AddString.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\incapsulation\Punto.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\FuelDispenser.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\Data.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\examples\Exceptions.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\GroupPersonMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\MatrixMaxIndex.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\RandomValuesArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\PrintArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\SearchMaxMinValueMatrix.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Square.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\enumerations\DaysOfWeek.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\ProvaMenu.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\MatrixSorted.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\MathFunctions.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\EquazioneDiSecondoGrado.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\examples\BankAccountException.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\GetTriangleType.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\ArrayInterface.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\PeachFruit.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygonGenerator\CircleGenerator.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print9to0\Thread1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\WarehouseLinkedListSync.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\CopyFile.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\LambdaExpression.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\collections\SortedSet.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\InstanceCounter.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\examples\DivideMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\Pentagon.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\examples\ExceptionStackMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\Person.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\HelloWorld.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\ereditariety\NotAlimentarProduct.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\consoleinput\ConsoleInputInt.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\ClasseDelCorso.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print0to10\Printer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\networkprogramming\clock\ClientClock.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\SumNumbers.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\AsterisksTriangle.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\exercises\Employee.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\nicolapackage\Test.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\anonymousclass\ArraySort.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\generics\examples\GenericsTestMain.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\rowmapper\model\Employee.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\Sum10Numbers.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\EconomySync.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\PrintReverseStringArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\incapsulation\Bancomat.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\entrypoints\Calculations.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\todaytomorrow\Printer.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\networkprogramming\chat\ClientChat.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\exercises\polygon\RectangleFromQuadrilateral.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\ZerosCounter.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\springframework\rowmapper\dao\EmployeeDao.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\flowcontrol\PositiveNegativeSum.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\FileReader_1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\syncronizedmarket\WarehouseSync.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print20values\Print20ValuesPairDispair.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\AverageIntValuesMatrixMultiples3.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\networkprogramming\chat\ServerChat.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\array\ArraySorted.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\AddString.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exercises\DiceGame.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print20values\Thread1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\Library.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\entrypoints\EntryPoint.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\polimorfism\examples\basederivate\Base.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\lambdaexpressions\exercises\library\EmployeeA.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\PrintIntMatrix.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\exceptions\exercises\Fruit.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\matrix\fatto\AverageIntValuesArray.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\examples\MultiThreadingCounter.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\test\Persona.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\examples\ThreadDeadLock.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\threads\exercises\print0to10\Thread1.java
+C:\Users\Viincenzo Scalcione\Desktop\Desktop Vincenzo\java-course\java-course\src\main\java\it\intersistemi\corsojava\iomanager\TelnetClient.java

@@ -2,7 +2,7 @@ package it.intersistemi.corsojava.array;
 
 import java.util.Random;
 
-public class SearchMaxMinValue {
+public class SearchMaxMinValueArray {
 
     public static void main(String[] args) {
         Random value = new Random();
@@ -21,11 +21,14 @@ public class SearchMaxMinValue {
     public static void searchMaxAndMinValue(int array[]){
         int maxValue = 0;
         int minValue = 0;
+        maxValue = array[0];
         for(int index = 1; index < array.length; index ++) {
             if (array[index] > maxValue) {
                 maxValue = array[index];
             }
         }
+
+        minValue = array[0];
         for(int index = 1; index < array.length; index ++) {
             if(array[index] < minValue){
                 minValue = array[index];

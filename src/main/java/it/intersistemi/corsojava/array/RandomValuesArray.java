@@ -4,14 +4,14 @@ import java.util.Random;
 public class RandomValuesArray {
 	public static void main(String[] args) {
 		System.out.println("********** Obtained result: *************** ");
-		generatorePseudoArrayRandomValoriPari();
+		generatorPseudoArrayRandomPairValues();
 	}
 	
-	public static void generatorePseudoArrayRandomValoriPari() {
+	public static void generatorPseudoArrayRandomPairValues() {
 		Random randomValue = new Random();
 		int tmp = 0;
 		int[] randomArray = new int[15];
-		for(int i=0; i<randomArray.length; i++) {
+		for(int i=0; i < randomArray.length; i++) {
 			randomArray[i] = randomValue.nextInt(50);
 			if(randomArray[i] != 0 && randomArray[i] %2 == 0) {
 				tmp += randomArray[i];

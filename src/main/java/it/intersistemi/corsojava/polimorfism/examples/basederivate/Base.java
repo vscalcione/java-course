@@ -1,4 +1,4 @@
-package it.intersistemi.corsojava.polimorfism.examples;
+package it.intersistemi.corsojava.polimorfism.examples.basederivate;
 
 public class Base {
 
